@@ -62,7 +62,7 @@ def price_plot(symbol):
     plt.ylabel('Closing Price', fontweight='bold')
     return st.pyplot()
 
-num_company = st.sidebar.slider('Number of Companies', 1, 10)
+num_company = st.sidebar.slider('Number of Companies', 1, df_selected_sector.shape[0], help='Select the number of companies to show their respective closing prices chart')
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
