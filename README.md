@@ -1,4 +1,4 @@
-# SensexStockApp
+# Sensex Stock Prices App
 
 ### This app retrieves the list of the **BSE SENSEX** (from Wikipedia) and its corresponding **stock closing price** (year-to-date)
 
